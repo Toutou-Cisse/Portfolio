@@ -1,451 +1,566 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <title>Bootstrap demo</title>
-  </head>
-  <body class="bg-light">
-    <!-- Debut navbar -->
-    <!-- As a link -->
-<nav class="navbar fixed-top bg-body-tertiary">
-    <div class="container-lg shadow-sm">
-      <a class="navbar-brand text-danger fw-bold fs-4" href="#">Toutou_Design</a>
-      <div class="dropdown">
-            <button class="btn btn-secondary btn-danger px-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <i class="fas fa-bars"></i>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+        <title>Toutoudesign</title>
+
+</head>
+
+<body class="bg-light">
+    <!-- Debut navbar--> 
+
+    <nav class="navbar navbar-expand-lg fixed-top shadow-sm "  style=  "background-color:  rgba(238, 236, 236, 0.5) !important; ">
+        <div class="container-fluid  " style="margin-left: 20px; margin-right: 20px;" >
+            <a class="navbar-brand me-auto  fw-bold fs-2"  href="index.html ">Toutou_Design</a>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header "   >
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Toutou_Design</h5>
+                    <button type="button" class="btn-close" 
+                    data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-center flex-grow-1 pe-3 fs-4">
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2 active" aria-current="page" href="#index.htlml">Accueil</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#a propos">A propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#testimonials">Testmonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <a href="#login-2.hml" class="login-button">Login</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-         <ul class="dropdown-menu dropdown-menu-end">
-            <li><a class="dropdown-item" href="#acueil">Acueil</a></li>
-            <li><a class="dropdown-item" href="#a propos">A propos</a></li>
-            <li><a class="dropdown-item" href="#services">Services</a></li>
-            <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
-            <li><a class="dropdown-item" href="#testimonials">Testmonials</a></li>
-            <li><a class="dropdown-item" href="#contact">Contact</a></li>    
-         </ul>
-      </div>
-    </div>
-  </nav>
+        </div>
+    </nav>
+    <!-- FIN NAV -->
+    <!-- Fin nabae -->
 
- <!-- Fin nabae -->
- 
- <!-- Debut section d'accueil -->
-<section class="home p-5" id="home">
-    <div class="conainer-lg">
-        <div class="row min-vh-100 align-items-center align-content-center">
-            <div class="col-md-6 mt-5 mt-md-0">
-                <div class="home-img text-center">
-                    <img src="img/profil.jpg" class="rounded-circle mw-100" width="50%" alt="profile img" style="border-radius: 25px ;">
+    <!-- Debut section d'accueil -->
+    <section class="home p-5" id="home">
+        <div class="conainer-lg">
+            <div class="row min-vh-30 align-items-center align-content-center">
+                <div class="col-md-6 mt-5 mt-md-0">
+                    <div class="home-img text-center">
+                        <img src="img/profil.jpg" class="rounded-circle mw-100" width="50%" alt="profile img"
+                            style="border-radius: 25px ;">
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-6 mt-5 mt-md-0 order-md-first">
-                <div class="home-text">
-                    <p class="text-muted mb-1">Salut Je suis</p>
-                    <h1 class="text-danger text-uppercase fs-1 fw-bold">Designer et Développeuse web</h1>
-                    <h2 class="fs-4">Toutou Cisse</h2>
-                    <p class="mt-4 text-muted">Ravi de vous rencontrer.
-                        Depuis le début de mon parcours en tant que designer et developpeuse indépendante il y a plus
-                         de 2ans ans, j'ai travaillé à distance pour des agences, consulté des startups 
-                         et collaboré avec des personnes talentueuses pour créer des produits numériques
-                          à usage professionnel et grand public. Je suis tranquillement confiante, 
-                          naturellement curieuse et je travaille perpétuellement à améliorer mes 
-                          côtelettes un problème de conception à la fois.</p>
-                     <a href="realisations.html" class="btn btn-danger px-3 mt-3">Mes Realisations</a>
+                <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+                    <div class="home-text">
+                        <p class="text-muted mb-1 fs-4 fw-bold">Bonjour!  Je suis Toutou CISSE </p>
+                        <h1 class="text-danger text-uppercase fs-3 fw-bold">Graphiste | Créateur de Sites Web | Maquettiste Web | Créateur de Médias sociaux</h1>
+                        
+
+                        <div class="h1_big fs-5 fw-bold"> Bienvenue sur mon portfolio ! Avec une passion pour le design graphique et le développement web, je m'efforce de transformer des idées en visuels percutants et en expériences numériques captivantes.
+                           <br> Ce que je propose :
+                            <h1>
+                                <a href="" class="typewrite" data-period="300" style="text-decoration: none; color: #087990;"
+                                    data-type='[ "Design Graphique : Création de logos, brochures, affiches et tout support visuel pour donner vie à votre identité visuelle..", "Création de Sites Web : Conception et développement de sites web élégants et fonctionnels, adaptés à vos besoins et à ceux de vos utilisateurs.", "Maquettes Web : Élaboration de maquettes interactives pour visualiser et affiner l interface utilisateur avant la réalisation finale.", "Création de Médias : Production de contenus multimédias attractifs, tels que des vidéos, des animations et des graphiques, pour enrichir votre présence en ligne..." ]'>
+                                    <span class="wrap"></span>
+                                </a>
+                            </h1><br>
+
+                            <div class="typed"></div>
+                        </div>
+                        <button><a href="realisations.html" class=" px-3 mt-3 fs-4" style="text-decoration: none; color: rgb(254, 254, 254); font-weight: bold;">Mon Portfolio</a></button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-</section>
- <!-- Fin section d'accueil -->
+    </section>
+    <!-- Fin section d'accueil -->
 
- <!--Debut section A propos -->
-<section class="a propos py-5" id="a propos">
-    <div class="container-lg py-4">
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <div class="section-title text-center">
-                    <h2 class="fw-bold mb-5">A propos de Moi</h2>
+    <!--Debut section A propos -->
+    <section class="a propos py-5" id="a propos">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">A propos de Moi</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 fs-4">
+                    <div class="apropos-text">
+                        <h3 class="fs-2 mb-3"></h3>
+                        <p class="text-muted"> Je suis une professionnelle passionnée par la conception visuelle et numérique 
+                                               basée à Dakar, dédiée à transformer des idées en expériences visuelles et interactives
+                                               mémorables. Avec une expertise diversifiée dans le design<br> 
+                                               graphique, la création de sites web, la gestion des
+                           
+                                               médias sociaux et la conception de maquettes web, je mets mon savoir-faire au service de projets
+                                               uniques et personnalisés. Vous pouvez vérifier mes créations dans la section portfolio sur ce site Web.
+                            
+                                               J'attends avec impatience toutes les opportunités et<br> tous les défis. </p>
+                    </div>
+                    <div class="row text-center text-uppercase my-3 ">
+                        <div class="col-sm-4">
+                            <div class="fact-item">
+                                <h4 class="fs-1 fw-bold">100</h4>
+                                <p class="text-muted">Projets Complet</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="fact-item">
+                                <h4 class="fs-1 fw-bold">90</h4>
+                                <p class="text-muted">Clients satisfait</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="fact-item">
+                                <h4 class="fs-1 fw-bold">95</h4>
+                                <p class="text-muted">Avis Positive</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 d-flex align-items-center">
+                            <a href="cv (2).html" class="btn px-3 btn-danger me-5">Telechager CV</a>
+                            <div class="social-links">
+                                <a href="#" class="text-dark me-2"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="text-dark me-2"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="text-dark me-2"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="text-dark me-2"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5 mt-md-0">
+                    <div class="skill-item mb-4">
+                        <h3 class="fs-4">Photoshop, illustator, canva, premiere Pro, Figma</h3>
+                        <div class="progress " role="progressbar" aria-label="Animated striped example"
+                            aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                                style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-4">
+                        <h3 class="fs-4">Worpress et html, css, bootstrap, JavaScript, php</h3>
+                        <div class="progress " role="progressbar" aria-label="Animated striped example"
+                            aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                                style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-4">
+                        <h3 class="fs-4">Optimisation pour les moteurs de recherche (SEO)</h3>
+                        <div class="progress " role="progressbar" aria-label="Animated striped example"
+                            aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                                style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-4">
+                        <h3 class="fs-4">window, Linux, mysql</h3>
+                        <div class="progress " role="progressbar" aria-label="Animated striped example"
+                            aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                                style="width: 80%"></div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="apropos-text">
-                    <h3 class="fs-4 mb-3"></h3>
-                    <p class="text-muted">J'aime coder des choses à partir de zéro et donner vie à des idées dans le navigateur.</p>                 
+
+    </section>
+
+    <!--Fin section A propos -->
+
+    <!-- Debut Section Services -->
+    <section class="services py-5" id="services">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Mes services</h2>
+                    </div>
                 </div>
-                <div class="row text-center text-uppercase my-3 ">
-                    <div class="col-sm-4">
-                        <div class="fact-item">
-                            <h4 class="fs-1 fw-bold">100</h4>
-                            <p class="text-muted">Projets Complet</p>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="services-item shadow-sm p-4 rounded bg-white">
+                        <div class="icon my-3 text-danger fs-2">
+                            <i class="fas fa-code"></i>
                         </div>
+                        <h3 class="fs-4 fw-bold text-danger py-2">Développement web front-end</h3>
+                        <p class="text-muted fs-4">Intégration HTML/CSS, Optimisation des performances, Utilisation de
+                            JavaScript, Conception d'interface utilisateur (UI), Développement de l'expérience
+                            utilisateur (UX)</p>
                     </div>
-                    <div class="col-sm-4">
-                        <div class="fact-item">
-                            <h4 class="fs-1 fw-bold">90</h4>
-                            <p class="text-muted">Clients satisfait</p>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="services-item shadow-sm p-4 rounded bg-white">
+                        <div class="icon my-3 text-danger fs-2">
+                            <i class="fas fa-lightbulb"></i>
                         </div>
+                        <h3 class="fs-4 fw-bold text-danger py-2">Designer Creative</h3>
+                        <p class="text-muted fs-4">Photographie et retouche photo Photoshop ou autres, Animation et motion
+                            design, Design de supports de marketing numérique, Design de typographie, Branding ...etc
+                        </p>
                     </div>
-                    <div class="col-sm-4">
-                        <div class="fact-item">
-                            <h4 class="fs-1 fw-bold">95</h4>
-                            <p class="text-muted">Avis Positive</p>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="services-item shadow-sm p-4 rounded bg-white">
+                        <div class="icon my-3 text-danger fs-2">
+                            <i class="fas fa-image"></i>
+                        </div>
+                        <h3 class="fs-4 fw-bold text-danger py-2">Cadrage et Montage Vidéo</h3>
+                        <p class="text-muted fs-4">Importation et organisation, Édition, Effets visuels et graphiques,
+                            Correction et étalonnage, Effets de vitesse, Intégration de son et d'effets sonores, Montage
+                            multicaméra, Exportation et compression </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="services-item shadow-sm p-4 rounded bg-white">
+                        <div class="icon my-3 text-danger fs-2">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 class="fs-4 fw-bold text-danger py-2">Intégration de CMS</h3>
+                        <p class="text-muted fs-4">Installation et configuration sur window ou Linux,Personnalisation de
+                            thèmes et de templates, Développement de plugins et de modules, Migration de contenu,
+                            Optimisation SEO, Sécurité, Maintenance et mises à jour </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="services-item shadow-sm p-4 rounded bg-white">
+                        <div class="icon my-3 text-danger fs-2">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3 class="fs-4 fw-bold text-danger py-2">Graphique design</h3>
+                        <p class="text-muted fs-4">Conception de logos, Identité visuelle, Design de brochures et de flyers,
+                            Conception design d'affiches, Création d'illustrations personnalisées,Packaging, Publicité
+                            numérique, Design de présentation...etc</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="services-item shadow-sm p-4 rounded bg-white">
+                        <div class="icon my-3 text-danger fs-2">
+                            <i class="fas fa-image"></i>
+                        </div>
+                        <h3 class="fs-4 fw-bold text-danger py-2">Community Manager</h3>
+                        <p class="text-muted fs-4">Gestion des réseaux sociaux, Engagement communautaire, Création de contenu
+                            attrayant, Analyse et reporting, Campagnes publicitaires, Élaboration de stratégies de
+                            contenu basées sur les objectifs de l'entreprise </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Fin Section Services -->
+
+    <!-- Debut section portfoliio -->
+    <section class="portfoliio py-5" id="portfoliio">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-xl-7">
+                    <div class="carousel-inner">
+                        <div class="section-title text-center">
+                            <h2 class="fw-bold mb-5">Projets</h2>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-12 d-flex align-items-center">
-                        <a href="CV.html" class="btn px-3 btn-danger me-5">Telechager CV</a>
-                        <div class="social-links">
-                            <a href="#" class="text-dark me-2"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#" class="text-dark me-2"><i class="fab fa-twitter"></i></a> 
-                            <a href="#" class="text-dark me-2"><i class="fab fa-instagram"></i></a> 
-                            <a href="#" class="text-dark me-2"><i class="fab fa-linkedin-in"></i></a>   
-                          </div>      
-                    </div>  
-                </div>    
-            </div>
-            <div class="col-md-6 mt-5 mt-md-0">
-                <div class="skill-item mb-4">
-                    <h3 class="fs-6">Javascript</h3>
-                    <div class="progress " role="progressbar" aria-label="Animated striped example" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width: 45%"></div>
-                      </div>
-                </div>
-                <div class="skill-item mb-4">
-                    <h3 class="fs-6">Bootstrap</h3>
-                    <div class="progress " role="progressbar" aria-label="Animated striped example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width: 90%"></div>
-                      </div>
-                </div>
-                <div class="skill-item mb-4">
-                    <h3 class="fs-6">Html</h3>
-                    <div class="progress " role="progressbar" aria-label="Animated striped example" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width: 95%"></div>
-                      </div>
-                </div>
-                <div class="skill-item mb-4">
-                    <h3 class="fs-6">CSS</h3>
-                    <div class="progress " role="progressbar" aria-label="Animated striped example" aria-valuenow="97" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width: 97%"></div>
-                      </div>
-                </div>
-                
-            </div>
-        </div>
-    </div>
-
-</section>
- 
- <!--Fin section A propos -->
-
-<!-- Debut Section Services -->
-<section class="services py-5" id="services">
-    <div class="container-lg py-4">
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <div class="section-title text-center">
-                    <h2 class="fw-bold mb-5">Ce que je fais</h2>
-                </div>
-            </div>
-        </div> 
-        <div class="row text-center">
-            <div class="col-md-6 col-lg-4 mb-4">
-                <div class="services-item shadow-sm p-4 rounded bg-white">
-                    <div class="icon my-3 text-danger fs-2">
-                        <i class="fas fa-code"></i>
+                    <div class="col-md-6 col-lg-4" >
+                        <div class="Portfolio-item" data-bs-target="#popu1" data-bs-toggle="modal">
+                            <a class="thumbnail" href="#">
+                            <img  src="portfolio/Sans titre-1.jpg" class="w-100  img-thumbnail" 
+                                alt="Portfolio item">
+                            </a>
+                            <h3 class="text-capitalize fs-5 my-2">Maquette web E-commerce figma</h3>
+                            <p class="mb-4"><a href="https://www.figma.com/proto/0hjdpDyHu22GzNBzQyWRL7/shoes?node-id=2-2&t=Zy5Ak8oCgLywaFIq-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A2" class="text-danger text-decoration-none">Prototype figma</a></p>
+                        </div>
                     </div>
-                    <h3 class="fs-5 py-2">Developpement web</h3>
-                    <p class="text-muted">J'ai des competences sur certains langages de programation
-                    et des CMS.</p>  
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-3">
-                <div class="services-item shadow-sm p-4 rounded bg-white">
-                    <div class="icon my-3 text-danger fs-2">
-                        <i class="fas fa-lightbulb"></i>
-                    </div>
-                    <h3 class="fs-5 py-2">Designer Creative</h3>
-                    <p class="text-muted">Je maitrise certains outils de design et montages:<br>Photoshop, Illustrator, Premiere PRO...etc</p>  
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-4">
-                <div class="services-item shadow-sm p-4 rounded bg-white">
-                    <div class="icon my-3 text-danger fs-2">
-                        <i class="fas fa-image"></i>
-                    </div>
-                    <h3 class="fs-5 py-2">Cadrage</h3>
-                    <p class="text-muted">J'ai exercée un stage sur le cadrage et design à Time For Africa Tv. </p>  
-                </div>
-            </div>
-                       
-        </div>   
-    </div>
-</section>
-<!-- Fin Section Services -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="Portfolio-item">
+                            <img src="portfolio/Phone Mockup Facebook Cover .jpg" class="w-100 img-thumbnail"
+                                alt="Portfolio item">
+                            <h3 class="text-capitalize fs-5 my-2">Maquette mobile TER</h3>
+                            <p class="mb-4"><a href="https://www.figma.com/proto/lHE8gcnQjWjujI6DkaJqL1/Ter?node-id=113-111&t=hmoEOYNWU7Bxt5h1-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1" class="text-danger text-decoration-none">Demo</a></p>
 
-<!-- Debut section portfoliio -->
-<section class="portfoliio py-5" id="portfoliio">
-    <div class="container-lg py-4">
-        <div class="row justify-content-center">
-            <div class="col-lg-8 col-xl-7">
-                <div class="carousel-inner">
-                <div class="section-title text-center">
-                    <h2 class="fw-bold mb-5">Mes dernier projets</h2>
-                </div>
-            </div>
-        </div> 
-        <div class="row">
-            <div class="col-md-6 col-lg-4">
-                <div class="Portfolio-item">
-                    <img src="img/team.jpg" class="w-100 img-thumbnail" alt="Portfolio item">
-                    <h3 class="text-capitalize fs-5 my-2">Section Team</h3>
-                    <p class="mb-4"><a href="#" class="text-danger text-decoration-none">Demo</a></p>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="Portfolio-item">
-                    <img src="img/App.jpg" class="w-100 img-thumbnail" style="height: 241px;" alt="Portfolio item">
-                    <h3 class="text-capitalize fs-5 my-2">Application landing page</h3>
-                    
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="Portfolio-item">
-                    <img src="img/team creative.jpg" class="w-100 img-thumbnail" alt="Portfolio item">
-                    <h3 class="text-capitalize fs-5 my-2">Team Creative</h3>
-                   
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="Portfolio-item">
-                    <img src="img/cars.jpg" class="w-100 img-thumbnail" style="height: 252px;" alt="Portfolio item">
-                    <h3 class="text-capitalize fs-5 my-2">Tableau des prix</h3>
-                    
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="Portfolio-item">
-                    <img src="img/gallery boot.PNG" class="w-100 img-thumbnail" style="height: 252px;" alt="Portfolio item">
-                    <h3 class="text-capitalize fs-5 my-2">Gallerie image Bootstrap 5</h3>
-                 
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="Portfolio-item">
-                    <img src="img/gallery.jpg" class="w-100 img-thumbnail" style="height:250px ;" alt="Portfolio item">
-                    <h3 class="text-capitalize fs-5 my-2">Gallerie images filtrable</h3>
-                   
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="Portfolio-item ">
+                            <img src="portfolio/pf (54)-ill.jpg" class="w-100 img-thumbnail"
+                                alt="Portfolio item">
+                            <h3 class="text-capitalize fs-5 my-2">Kakemono PWA-Sénégal</h3>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="Portfolio-item">
+                            <img src="portfolio/Untitled.jpg" class="w-100 img-thumbnail"
+                                alt="Portfolio item">
+                            <h3 class="text-capitalize fs-5 my-2">Maquette mobile E-commerce</h3>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="Portfolio-item">
+                            <img src="portfolio/pf (56)-ill.jpg" class="w-100 img-thumbnail" alt="Portfolio item">
+                            <h3 class="text-capitalize fs-5 my-2">Popup</h3>
+                            <p class="mb-4"><a href="popup.html" class="text-danger text-decoration-none">Demo</a></p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="Portfolio-item">
+                            <img src="portfolio/pf (55)-ill.jpg" class="w-100 img-thumbnail" alt="Portfolio item">
+                            <h3 class="text-capitalize fs-5 my-2">Maquette mobile restaurant</h3>
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    </div>
-</section>
-<!-- Debut section portfoliio -->
-
-<!-- Debut Section freelancer -->
-<section class="freelancer-available py-5 bg-danger">
-    <div class="container-lg py-4">
-        <div class="row justify-content-center">
-            <div class="col-lg-8 text-center">
-                <p class="text-light fs-5">Avez-vous un projet ?</p>
-                <h2 class="fs-1 text-white mb-4">Je suis Disponible Pour des Projets Freelance</h2>
-                <a href="#contact" class="btn btn-outline-light">Engagez moi</a>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- FIN Section freelancer -->
-
-<!-- Debut testimonials section -->
-<section class="testimonials py-5" id="testimonials">
-    <div class="container-lg py-4">
-        <div class="row justify-content-center">
-            <div class="col-lg-8 col-xl-7">  
-                <div class="section-title text-center">
-                    <h2 class="fw-bold mb-5">Temoignages</h2>
+        
+        <div class="modal fade" role="dialog" id="imgmodal">
+            <div class="modal-dialog">
+                <div class="modal-content">         
+                    <img class="img-responsive" src=" " id="show-img">         
                 </div>
             </div>
-        </div> 
+        </div>
+    </section>
+    <!-- Debut section portfoliio -->
+
+    <!-- Debut Section freelancer -->
+    <section class="freelancer-available py-5 bg-danger">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <p class="text-light fs-5">Avez-vous un projet ?</p>
+                    <h2 class="fs-1 text-white mb-4">Je suis Disponible Pour des Projets Freelance</h2>
+                    <a href="#contact" class="btn btn-outline-light">Engagez moi</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FIN Section freelancer -->
+
+    <!-- Debut testimonials section -->
+    <section class="testimonials py-5" id="testimonials">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-xl-7">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Temoignages</h2>
+                    </div>
+                </div>
+            </div>
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-xl-7">
                     <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
                         <ol class="carousel-indicators">
-                          <li  data-bs-target="#carousel1" data-bs-slide-to="0" class="active
+                            <li data-bs-target="#carousel1" data-bs-slide-to="0" class="active
                            bg-danger"></li>
-                          <li class="bg-danger" data-bs-target="#carousel1" data-bs-slide-to="1" ></li>
-                          <li class="bg-danger" data-bs-target="#carousel1" data-bs-slide-to="2" ></li>
+                            <li class="bg-danger" data-bs-target="#carousel1" data-bs-slide-to="1"></li>
+                            <li class="bg-danger" data-bs-target="#carousel1" data-bs-slide-to="2"></li>
                         </ol>
-                        <div class="carousel-inner p-1"> 
-                    <!-- testi item debut -->
-                    <div class="testi-item carousel-item active bg-white shadow-sm rounded p-4 mb-5">
-                        <div class="testi-author-info d-flex align-items-center">
-                            <img src="img/testimo.PNG" class="img-thumbnail rounded-circle" style="height: 120px; width: 120px;" alt="author img">
-                            <div class="author ms-3">
-                                <h3 class="fs-6 mb-1">Souleymane Madiko</h3>
-                                <p class="text-muted m-0">Dévéloppeur web</p>
+                        <div class="carousel-inner p-1">
+                            <!-- testi item debut -->
+                            <div class="testi-item carousel-item active bg-white shadow-sm rounded p-4 mb-5">
+                                <div class="testi-author-info d-flex align-items-center">
+                                    <img src="img/testimo.PNG" class="img-thumbnail rounded-circle"
+                                        style="height: 120px; width: 120px;" alt="author img">
+                                    <div class="author ms-3">
+                                        <h3 class="fs-6 mb-1">Souleymane Madiko</h3>
+                                        <p class="text-muted m-0">Dévéloppeur web</p>
+                                    </div>
+                                </div>
+                                <p class="text-muted mt-3">
+                                    "Toutou_design a fait un travail incroyable en concevant notre site web.
+                                     Il est moderne, intuitif et correspond exactement à ce que nous
+                                     recherchions. Le processus a été fluide et rapide grâce à sa 
+                                     communication claire et ses compétences techniques. Nous avons 
+                                     déjà reçu des retours positifs de nos utilisateurs."</p>
+                                <div class="ratings text-danger">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <!-- testi item FIN -->
+                            <!-- testi item debut -->
+                            <div class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
+                                <div class="testi-author-info d-flex align-items-center">
+                                    <img src="img/testi.PNG" class="img-thumbnail rounded-circle"
+                                        style="height: 120px; width: 120px;" alt="author img">
+                                    <div class="author ms-3">
+                                        <h3 class="fs-6 mb-1">Yabaye Seck</h3>
+                                        <p class="text-muted m-0">UX designer</p>
+                                    </div>
+                                </div>
+                                <p class="text-muted mt-3">Travailler avec [Votre Nom] a été une expérience formidable. Elle a parfaitement
+                                                         compris notre vision et a su créer une identité visuelle qui reflète notre marque 
+                                                         à la perfection. Sa créativité et son professionnalisme sont incomparables. Nous
+                                                          sommes ravis du résultat et recommandons vivement ses services.</p>
+                                <div class="ratings text-danger">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <!-- testi item FIN -->
+                            <!-- testi item debut -->
+                            <div class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
+                                <div class="testi-author-info d-flex align-items-center">
+                                    <img src="img/testi3.PNG" class="img-thumbnail rounded-circle"
+                                        style="height: 120px; width: 120px;" alt="author img">
+                                    <div class="author ms-3">
+                                        <h3 class="fs-6 mb-1">Aliou Sow</h3>
+                                        <p class="text-muted m-0">Informaticien</p>
+                                    </div>
+                                </div>
+                                <p class="text-muted mt-3">"Les maquettes réalisées par Toutou_design ont dépassé nos attentes. 
+                                                            Elle a su capturer l'essence de notre application et créer des 
+                                                            designs à la fois beaux et fonctionnels. Sa compréhension des 
+                                                            tendances actuelles et son attention aux détails sont impressionnantes.
+                                                             Nous avons hâte de travailler de nouveau avec elle.</p>
+                                <div class="ratings text-danger">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
                             </div>
                         </div>
-                        <p class="text-muted mt-3">
-                            "Matt est un communicateur clair avec la ténacité et la confiance nécessaires pour vraiment
-                             creuser dans des scénarios de conception délicats et la friction collaborative nécessaire 
-                             pour produire un excellent travail."</p>
-                            <div class="ratings text-danger">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
+                        <!-- testi item FIN -->
                     </div>
-                    <!-- testi item FIN -->
-                      <!-- testi item debut -->
-                      <div class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
-                        <div class="testi-author-info d-flex align-items-center">
-                            <img src="img/testi.PNG" class="img-thumbnail rounded-circle" style="height: 120px; width: 120px;" alt="author img">
-                            <div class="author ms-3">
-                                <h3 class="fs-6 mb-1">Yabaye Seck</h3>
-                                <p class="text-muted m-0">Menager Seo</p>
-                            </div>
-                        </div>
-                        <p class="text-muted mt-3">Je suis l'une des consommatrice de vos services et je suis satisfait.</p>
-                            <div class="ratings text-danger">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                    </div>
-                    <!-- testi item FIN -->
-                      <!-- testi item debut -->
-                      <div class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
-                        <div class="testi-author-info d-flex align-items-center">
-                            <img src="img/testi3.PNG" class="img-thumbnail rounded-circle" style="height: 120px; width: 120px;" alt="author img">
-                            <div class="author ms-3">
-                                <h3 class="fs-6 mb-1">Aliou Sow</h3>
-                                <p class="text-muted m-0">Menager Seo</p>
-                            </div>
-                        </div>
-                        <p class="text-muted mt-3">"C'était un réel plaisir de travailler avec Matt et nous avons hâte de retravailler avec lui.
-                                                     C'est définitivement le genre de designer à qui vous pouvez faire confiance pour un projet
-                                                      du début à la fin.</p>
-                            <div class="ratings text-danger">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                    </div>
-                </div>
-                    <!-- testi item FIN -->
-                </div>
-                </div>
-                </div>
-            </div>    
-    
-</section>
-<!-- Debut testimonials section -->
-
-<!-- Debut section contact -->
-<section class="contact py-5 " id="contact">
-    <div class="container-lg py-4">
-        <div class="row justify-content-center">
-            <div class="col-lg-8 col-xl-7">  
-                <div class="section-title text-center">
-                    <h2 class="fw-bold mb-5">Contactez-moi</h2>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-5">
-                <div class="contact item d-flex mb-3">
-                    <div class="icon fs-4 text-danger">
-                        <i class="fas fa-envelope"></i>
-                    </div>
-                    <div class="text ms-3">
-                        <h3 class="fs-5">Email</h3>
-                        <p class="text-muted">example@gmail.com</p>
-                    </div>
-                </div>
-                <div class="contact item d-flex mb-3">
-                    <div class="icon fs-4 text-danger">
-                        <i class="fas fa-phone"></i>
-                    </div>
-                    <div class="text ms-3">
-                        <h3 class="fs-5">Téléphone</h3>
-                        <p class="text-muted">78 257 66 86</p>
-                    </div>
-                </div>
-                <div class="contact item d-flex mb-3">
-                    <div class="icon fs-4 text-danger">
-                        <i class="fas fa-map-marker-alt"></i>
-                    </div>
-                    <div class="text ms-3">
-                        <h3 class="fs-5">Adresse</h3>
-                        <p class="text-muted">Fass Delorme rue22</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-7">
-                <div class="contact-form">
-                    <form>
-                        <div class="row">
-                            <div class="col-lg-6 mb-4">
-                                <input type="text" placeholder="Votre Prenom" 
-                                class="form-control form-control-lg fs-6 border-0 shadow-sm">
-                            </div>
-                            <div class="col-lg-6 mb-4">
-                                <input type="text" placeholder="Votre Email" 
-                                class="form-control form-control-lg fs-6 border-0 shadow-sm">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12 mb-4">
-                                <input type="text" placeholder="Sujet" 
-                                class="form-control form-control-lg fs-6 border-0 shadow-sm">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12 mb-4">
-                                <textarea rows="5" placeholder="Votre Message" 
-                                class="form-control form-control-lg fs-6 border-0 shadow-sm"></textarea>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <button type="submit" class="btn btn-danger px-3">Envoyer votre Message</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
 
+    </section>
+    <!-- Debut testimonials section -->
+
+    <!-- Debut section contact -->
+    <section class="contact py-5 " id="contact">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-xl-7">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Contactez-moi</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="contact item d-flex mb-3">
+                        <div class="icon fs-4 text-danger">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5">Email</h3>
+                            <p class="text-muted">example@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact item d-flex mb-3">
+                        <div class="icon fs-4 text-danger">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5">Téléphone</h3>
+                            <p class="text-muted">78 257 66 86</p>
+                        </div>
+                    </div>
+                    <div class="contact item d-flex mb-3">
+                        <div class="icon fs-4 text-danger">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5">Adresse</h3>
+                            <p class="text-muted">Fass Delorme rue22</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="contact-form">
+                        <form>
+                            <div class="row">
+                                <div class="col-lg-6 mb-4">
+                                    <input type="text" placeholder="Votre Prenom"
+                                        class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                                </div>
+                                <div class="col-lg-6 mb-4">
+                                    <input type="text" placeholder="Votre Email"
+                                        class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 mb-4">
+                                    <input type="text" placeholder="Sujet"
+                                        class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 mb-4">
+                                    <textarea rows="5" placeholder="Votre Message"
+                                        class="form-control form-control-lg fs-6 border-0 shadow-sm"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <button type="submit" class="btn btn-danger px-3">Envoyer votre Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
         </div>
-    </div>
-</section>
-<!-- Fin section contact -->
+    </section>
+    <!-- Fin section contact -->
 
-<!-- Debut footer -->
-<footer class="footer border-top py-4">
-    <div class="container-lg">
-        <div class="row">
-            <div class="col-lg-12">
-                <p class="m-0 text-center text-muted">&copy; 2023 Tout droit Reserver à Toutou Cisse</p>
+    <!-- Debut footer -->
+    <footer class="footer freelancer-available py-5  ">
+        <div class="container-fluid " style="background-color: #087990;">
+            <div class="row justify-content-center ">
+                <div class="col-lg-12 text-center text-light">
+                    <p class="m-5 text-center  ">&copy; 2023 Tout droit Reserver à Toutou Cisse</p>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
-<!-- Fin footer -->
+    </footer>
+    <!-- Fin footer -->
 
-    
 
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
-  </body>
+</body>
+
 </html>
