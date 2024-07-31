@@ -5,43 +5,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+        <title>Toutoudesign</title>
+
     <title>PORTFOLIO TOUTOU CISSE</title>
+    <style>
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+        }
+
+        .video-container iframe,
+        .video-container embed,
+        .video-container object,
+        .video-container video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+    </style><style>
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+        }
+
+        .video-container iframe,
+        .video-container embed,
+        .video-container object,
+        .video-container video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+    </style>
   </head>
-  <body class="bg-light">
+  <section class="bg-light">
     <!-- Debut navbar -->
     <!-- As a link -->
-<nav class="navbar fixed-top bg-body-tertiary">
-    <div class="container-lg shadow-sm">
-      <a class="navbar-brand text-danger fw-bold fs-4" href="#"><h1>Toutou_Design</h1></a>
-      <div class="dropdown">
-            <button class="btn btn-secondary btn-danger px-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <i class="fas fa-bars"></i>
-            </button>
-         <ul class="dropdown-menu dropdown-menu-end">
-            <li><a class="dropdown-item" href="portfolio.html">Acueil</a></li>
-            <li><a class="dropdown-item" href="portfolio.html">A propos</a></li>
-            <li><a class="dropdown-item" href="portfolio.html">Services</a></li>
-            <li><a class="dropdown-item" href="portfolio.html">Portfolio</a></li>
-            <li><a class="dropdown-item" href="#testimonials">Testmonials</a></li>
-            <li><a class="dropdown-item" href="portfolio.html">Contact</a></li>    
-         </ul>
-      </div>
-    </div>
-  </nav>
+    <nav class="navbar navbar-expand-lg fixed-top shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand me-auto fw-bold fs-2" href="#">Toutou_Design</a>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Toutou_Design</h5>
+                    <button type="button" class="btn-close" 
+                    data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-center flex-grow-1 pe-3 fs-3">
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2 active" aria-current="page" href="index.html">Accueil</a>
+                        </li>
 
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="index.html">A propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="index.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="index.html">Testmonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="index.html">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <a href="#login-2.hml" class="login-button">Login</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
   <section class="home p-5" id="home">
     <div class="conainer-lg">
         <div class="row min-vh-100 align-items-center align-content-center">
             <div class="col-md-6 mt-5 mt-md-0">
                 <div class="home-img text-center">
-                    <img src="img/profil.jpg" class="rounded-circle mw-100" width="50%" alt="profile img" style="border-radius: 25px ;">
+                   <br> <img src="img/profil.jpg" class="rounded-circle mw-100 py-5" width="50%" alt="profile img" style="border-radius: 25px ;">
                 </div>
             </div>
             <div class="col-md-6 mt-5 mt-md-0 order-md-first">
-                <div class="home-text">
-                    <p class="text-muted mb-1">Salut</p>
+                <div class="home-text"><br><br>
+                    <p class="text-muted mb-1 fs-3">Salut</p>
                     <h1 class="text-danger text-uppercase fs-1 fw-bold">Bienvenue sur ma page Realisations</h1>
-                    <h2 class="fs-4">Toutou Cisse</h2>
+                    <h2 class="fs-4">Toutou Design</h2>
                     <p class="mt-4 text-muted">Je vous présente certaines de mes réalisation que ,  
                      <br>vous allez adorer.</p>    
                 </div>
@@ -53,51 +117,198 @@
             <div class="col-lg-8 col-xl-7">
                 <div class="carousel-inner">
                 <div class="section-title text-center">
-                    <h2 class="fw-bold mb-5">Voici quelques-unes de mes Réalisations</h2>
+                    <h2 class="fw-bold mb-5">DESIGN GRAPHIQUE ET WEB DESIGN</h2>
                 </div>
             </div>
-        </div> 
+            </div> 
+            <div class="col-lg-8 col-xl-7">
+                <div class="carousel-inner">
+                <div class="section-title text-center">
+                    <h2 class="fw-bold mb-5 text-danger">Logos</h2>
+                </div>
+            </div>
+            </div>
         <div class="row">
             <div class="col-md-6 col-lg-4">
                 <div class="Portfolio-item">
-                    <img src="img/passinke Moc3.jpg" class="w-100 img-thumbnail" alt="Portfolio item">
+                    <img src="portfolio/pf (3)-ill.jpg" class="w-100 img-thumbnail" alt="Portfolio item">
                    
                     
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="Portfolio-item">
-                    <img src="img/221 Restaurent.jpg" class="w-100 img-thumbnail" alt="Portfolio item">
+                    <img src="portfolio/pf (23)-ill.jpg" class="w-100 img-thumbnail" alt="Portfolio item">
                     
                     
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="Portfolio-item">
-                    <img src="img/sac-passinke.jpg" class="w-100 img-thumbnail" alt="Portfolio item">
+                    <img src="portfolio/pf (24)-ill.jpg" class="w-100 img-thumbnail" alt="Portfolio item">
                    
                    
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="Portfolio-item">
-                    <img src="img/Konate couture.jpg" class="w-100 img-thumbnail"  alt="Portfolio item">
+                    <img src="portfolio/pf (16)-ill.jpg" class="w-100 img-thumbnail"  alt="Portfolio item">
                     
                    
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="Portfolio-item">
-                    <img src="img/bakel.jpg" class="w-100 img-thumbnail" alt="Portfolio item">
+                    <img src="portfolio/pf (41)-ill.jpg" class="w-100 img-thumbnail" alt="Portfolio item">
                     
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="Portfolio-item">
-                    <img src="img/affiche valentin.jpg" class="w-100 img-thumbnail" alt="Portfolio item">
+                    <img src="portfolio/pf (42)-ill.jpg" class="w-100 img-thumbnail" alt="Portfolio item">
                     
                 </div>
             </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="Portfolio-item">
+                    <img src="portfolio/pf (43)-ill.jpg" class="w-100 img-thumbnail"  alt="Portfolio item">
+                    
+                   
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="Portfolio-item">
+                    <img src="portfolio/pf (29)-ill.jpg" class="w-100 img-thumbnail" alt="Portfolio item">
+                    
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="Portfolio-item">
+                    <img src="img/Konate logo.png" class="w-100 img-thumbnail" alt="Portfolio item">
+                    
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="Portfolio-item">
+                    <img src="portfolio/pf (30)-ill.jpg" class="w-100 img-thumbnail"  alt="Portfolio item">
+                    
+                   
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="Portfolio-item">
+                    <img src="portfolio/pf (37)-ill.jpg" class="w-100 img-thumbnail"  alt="Portfolio item">
+                    
+                   
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="Portfolio-item">
+                    <img src="portfolio/pf (35)-ill.jpg" class="w-100 img-thumbnail" alt="Portfolio item">
+                    
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="Portfolio-item">
+                    <img src="portfolio/pf (27)-ill.jpg" class="w-100 img-thumbnail" alt="Portfolio item">
+                    
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="Portfolio-item">
+                    <img src="portfolio/pf (32)-ill.jpg" class="w-100 img-thumbnail" alt="Portfolio item">
+                    
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="Portfolio-item">
+                    <img src="portfolio/pf (31)-ill.jpg" class="w-100 img-thumbnail" alt="Portfolio item">
+                    
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="Portfolio-item">
+                    <img src="portfolio/pf (20)-ill.jpg" class="w-100 img-thumbnail"  alt="Portfolio item">
+                    
+                   
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="Portfolio-item">
+                    <img src="portfolio/pf (38)-ill.jpg" class="w-100 img-thumbnail" alt="Portfolio item">
+                    
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="Portfolio-item">
+                    <img src="portfolio/pf (34)-ill.jpg" class="w-100 img-thumbnail" alt="Portfolio item">
+                    
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="Portfolio-item">
+                    <img src="portfolio/pf (21)-ill.jpg" class="w-100 img-thumbnail"  alt="Portfolio item">
+                    
+                   
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="Portfolio-item">
+                    <img src="portfolio/pf (26)-ill.jpg" class="w-100 img-thumbnail" alt="Portfolio item">
+                    
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="Portfolio-item">
+                    <img src="portfolio/pf (22)-ill.jpg" class="w-100 img-thumbnail" alt="Portfolio item">
+                    
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="Portfolio-item">
+                    <img src="portfolio/pf (40)-ill.jpg" class="w-100 img-thumbnail"  alt="Portfolio item">
+                    
+                   
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="Portfolio-item">
+                    <img src="portfolio/pf (25)-ill.jpg" class="w-100 img-thumbnail" alt="Portfolio item">
+                    
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="Portfolio-item">
+                    <img src="portfolio/pf (19)-ill.jpg" class="w-100 img-thumbnail" alt="Portfolio item">
+                    
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="Portfolio-item">
+                    <img src="portfolio/pf (6).jpg" class="w-100 img-thumbnail"  alt="Portfolio item">
+                    
+                   
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="Portfolio-item">
+                    <img src="portfolio/pf (28)-ill.jpg" class="w-100 img-thumbnail" alt="Portfolio item">
+                    
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="Portfolio-item">
+                    <img src="portfolio/pf (33)-ill.jpg" class="w-100 img-thumbnail" alt="Portfolio item">
+                    
+                </div>
+            </div>
+
         </div>
     </div>
     </div>
@@ -109,48 +320,147 @@
             <div class="col-lg-8 col-xl-7">
                 <div class="carousel-inner">
                 <div class="section-title text-center">
-                    <h2 class="fw-bold mb-5">AFFICHES</h2>
+                    <h2 class="fw-bold mb-5">Illustrations</h2>
                 </div>
             </div>
         </div> 
         <div class="row">
             <div class="col-md-6 col-lg-4">
                 <div class="Portfolio-item">
-                    <img src="img/page de garde du menu principal.jpg" class="w-100 img-thumbnail" alt="Portfolio item">
+                    <img src="portfolio/pf (1)-ill.jpg" class="w-100 img-thumbnail" alt="Portfolio item">
                    
                     
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="Portfolio-item">
-                    <img src="img/logogroup2.png" class="w-100 img-thumbnail"  alt="Portfolio item">
+                    <img src="portfolio/pf (1).jpg" class="w-100 img-thumbnail"  alt="Portfolio item">
                     
                     
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="Portfolio-item">
-                    <img src="img/flayer-RTN-Ecole EC2LT.png" class="w-100 img-thumbnail"   alt="Portfolio item">
+                    <img src="portfolio/pf (1)-Récupéré-Récupéré-Récupéré.jpg" class="w-100 img-thumbnail"   alt="Portfolio item">
                    
                     
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="Portfolio-item">
-                    <img src="img/Plateau.jpg" class="w-100 img-thumbnail"  alt="Portfolio item">
+                    <img src="portfolio/pf (10)-ill.jpg" class="w-100 img-thumbnail"  alt="Portfolio item">
                     
                    
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="Portfolio-item">
-                    <img src="img/menu exterieur.jpg"  class="w-100 img-thumbnail" alt="Portfolio item" >
+                    <img src="portfolio/pf (11)-ill.jpg"  class="w-100 img-thumbnail" alt="Portfolio item" >
                    
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="Portfolio-item">
-                    <img src="img/menu interieur.jpg" class="w-100 img-thumbnail" alt="Portfolio item">
+                    <img src="portfolio/pf (12)-ill.jpg" class="w-100 img-thumbnail" alt="Portfolio item">
+                    
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="Portfolio-item">
+                    <img src="portfolio/pf (13)-ill.jpg" class="w-100 img-thumbnail"  alt="Portfolio item">
+                    
+                   
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="Portfolio-item">
+                    <img src="portfolio/pf (14)-ill.jpg"  class="w-100 img-thumbnail" alt="Portfolio item" >
+                   
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="Portfolio-item">
+                    <img src="portfolio/pf (15)-ill.jpg" class="w-100 img-thumbnail" alt="Portfolio item">
+                    
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="Portfolio-item">
+                    <img src="portfolio/pf (17)-ill.jpg" class="w-100 img-thumbnail"  alt="Portfolio item">
+                    
+                   
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="Portfolio-item">
+                    <img src="portfolio/pf (18)-ill.jpg"  class="w-100 img-thumbnail" alt="Portfolio item" >
+                   
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="Portfolio-item">
+                    <img src="portfolio/pf (51)-ill.jpg" class="w-100 img-thumbnail" alt="Portfolio item">
+                    
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="Portfolio-item">
+                    <img src="portfolio/pf (52)-ill.jpg" class="w-100 img-thumbnail"  alt="Portfolio item">
+                    
+                   
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="Portfolio-item">
+                    <img src="portfolio/pf (44)-ill.jpg"  class="w-100 img-thumbnail" alt="Portfolio item" >
+                   
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="Portfolio-item">
+                    <img src="portfolio/pf (4)-ill.jpg" class="w-100 img-thumbnail" alt="Portfolio item">
+                    
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="Portfolio-item">
+                    <img src="portfolio/pf (3).jpg" class="w-100 img-thumbnail"  alt="Portfolio item">
+                    
+                   
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="Portfolio-item">
+                    <img src="portfolio/pf (2).jpg"  class="w-100 img-thumbnail" alt="Portfolio item" >
+                   
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="Portfolio-item">
+                    <img src="portfolio/pf (7)-ill.jpg" class="w-100 img-thumbnail" alt="Portfolio item">
+                    
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="Portfolio-item">
+                    <img src="portfolio/pf (10)-ill.jpg" class="w-100 img-thumbnail"  alt="Portfolio item">
+                    
+                   
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="Portfolio-item">
+                    <img src="portfolio/pf (5)-ill.jpg"  class="w-100 img-thumbnail" alt="Portfolio item" >
+                   
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="Portfolio-item">
+                    <img src="portfolio/pf (2)-ill.jpg" class="w-100 img-thumbnail" alt="Portfolio item">
                     
                 </div>
             </div>
@@ -159,50 +469,99 @@
     </div>
 </section>
         </div>
+
+
+        <section class="portfoliio py-5" id="portfoliio">
+            <div class="container-lg py-4">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-xl-7">
+                        <div class="carousel-inner">
+                        <div class="section-title text-center">
+                            <h2 class="fw-bold mb-5">Web</h2>
+                        </div>
+                    </div>
+                </div> 
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="Portfolio-item">
+                            <img src="portfolio/pf (45)-ill.jpg" class="w-100 img-thumbnail"  alt="Portfolio item">
+                            
+                           
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="Portfolio-item">
+                            <img src="portfolio/pf (46)-ill.jpg"  class="w-100 img-thumbnail" alt="Portfolio item" >
+                           
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="Portfolio-item">
+                            <img src="portfolio/pf (44)-ill.jpg" class="w-100 img-thumbnail" alt="Portfolio item">
+                            
+                        </div>
+                    </div>
+        
+                    <div class="col-md-6 col-lg-4">
+                        <div class="Portfolio-item">
+                            <img src="portfolio/pf (47)-ill.jpg" class="w-100 img-thumbnail"  alt="Portfolio item">
+                            
+                           
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="Portfolio-item">
+                            <img src="portfolio/pf (48)-ill.jpg"  class="w-100 img-thumbnail" alt="Portfolio item" >
+                           
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="Portfolio-item">
+                            <img src="portfolio/pf (2)-ill.jpg" class="w-100 img-thumbnail" alt="Portfolio item">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    
+
+       
+
+    </div>
+
+</section>
+</div> 
+
         
 <!-- Debut section portfoliio -->
     </div>
 </section>
+<section class="portfoliio py-5" id="portfoliio" >
+    <div class="section-title text-center">
+        <h2 class="fw-bold mb-5">MONTAGES</h2>
+    </div>
 
-<section class="portfoliio py-5" id="portfoliio">
-    <div class="container-lg py-4">
-        <div class="col-lg-8 col-xl-7">
-            <div class="carousel-inner">
-            <div class="section-title text-center">
-                <h2 class="fw-bold mb-5">MONTAGES</h2>
+<!-- Video Gallery -->
+<div class="container mt-5" >
+    <div class="row" >
+        <div class="col-md-4" controls>
+            <div class="video-container" >
+                <iframe src="img/generique For WOMEN.mp4" sandbox frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="video-container" >
+                <iframe src="img/Le générique de TFA.mp4" sandbox frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="video-container">
+                <iframe src="img/My bhd.mp4" sandbox frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
     </div>
-        <div class="row ">
-            <div class="col-6">
-    <!-- 21:9 aspect ratio -->
-  <div class="embed-responsive embed-responsive-21by9">
-    <iframe class="embed-responsive-item"  src="img/generique For WOMEN.mp4" ;class="w-100" ></iframe>
-  </div>
-  </div>
-  
-  <!-- 16:9 aspect ratio -->
-  <div class="col-6">
-  <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="img/Time For Women motion design.mp4" ;class="w-100" ></iframe>
-  </div>
- </div>
-  
-  <!-- 4:3 aspect ratio -->
-  <div class="col-6">
-  <div class="embed-responsive embed-responsive-4by3">
-    <iframe class="embed-responsive-item" src="img/Le générique de TFA.mp4"></iframe>
-  </div>
-    </div>
-  
-  <!-- 1:1 aspect ratio -->
-  <div class="col-6">
-  <div class="embed-responsive embed-responsive-1by1">
-    <iframe class="embed-responsive-item" src="img/My bhd.mp4"></iframe>
-  </div>
-</div>
-</div>
-
 </div>
 </section>
 
